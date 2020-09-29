@@ -1,17 +1,21 @@
 /*Nav bar*/
-.container-nav {
+.container .container-nav {
+    margin-left: 1000px;
     position: relative;
     top: 0;
     overflow: hidden;
-    padding-left: 50%;
-    
+        
+}
+
+.logo {
+    margin-left: 100px;
+    margin-right: 400px;
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: black;
     padding-left: 30px;
-    background-color: none;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 /*nav bar Home product blog about us*/
@@ -141,8 +145,8 @@
 }
 
 .gmbr {
-    height: 150px;
-    width: 200px;
+    height: 80px;
+    width: 80px;
 }
 
   /* gambar di dalem grid */
@@ -225,6 +229,9 @@
     margin-bottom: 0.1px;
 }
 
+.col ul li a {
+    padding-right: 100px;
+} 
 
 .container3 ul li a {
     opacity: 0.9;
@@ -241,6 +248,7 @@
 /*form*/
 .container4 {
     box-sizing: border-box;
+    margin-right: 20px;
 }
 
 input[type=text], select, textarea {
