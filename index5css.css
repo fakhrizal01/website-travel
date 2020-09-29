@@ -1,0 +1,310 @@
+/*Nav bar*/
+.container-nav {
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    padding-left: 50%;
+    
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    padding-left: 30px;
+    background-color: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*nav bar Home product blog about us*/
+.navbar-nav .nav-item .nav-link:hover {
+    color: goldenrod;
+    padding-top: 10px;
+        
+}
+
+/*menu drop down hover*/
+.nav-item .dropdown-menu .dropdown-item:hover {
+    color: goldenrod;
+    background-color: gainsboro;
+    position: relative;
+    display: inline-block;
+    
+}
+
+/*Gambar slide show*/
+.carousel .carousel-inner .carousel-item {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20px;
+    
+}
+
+/*background tulisan Makkah, Madinah, Istanbul, Turki*/
+.container-fluid .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin-left: -198px;
+    
+}
+/*Tentang Kami*/
+.bg-about .carousel-item .carousel-caption {
+    color: black;
+    padding-bottom: -1000px;
+    margin-bottom: -30px;
+        
+}
+
+.bg-about .carousel-item {
+    margin-bottom: 20px;
+}
+
+/*Paket Populer*/
+.bg-paket {
+    margin-top: 300px;
+    text-align: center;
+    background: 17A2B8;
+}
+
+/*CARD*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 19px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.hotel-mkh {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 25px;
+    font-size: 12px;
+    
+}
+
+.hotel-mkh i{
+    padding-left: 5px;
+    margin-left: 2px;
+    
+}
+
+.hotel-mdn {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+    font-size: 12px;
+    
+}
+
+.hotel-mdn i{
+    padding-left: 5px;
+    margin-left: 2px;
+    
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: goldenrod;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+/*Text Mengapa Harus Kami*/
+.bg-kelebihan   {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*hover gambar kelebihan*/
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.gmbr {
+    height: 150px;
+    width: 200px;
+}
+
+  /* gambar di dalem grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 0.4;
+}
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*background Testimoni*/
+.container2 {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+/* Clear floats after containers */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container2 img {
+    float: left;
+    margin-right: 20px;
+    border: 10px;
+    border-radius: 50%;
+}
+
+.container2 span {
+    font-size: 20px;
+    margin-right: 15px;
+    font-family: 'Kalam', cursive;
+
+}
+
+@media (max-width: 500px) {
+    .container2 {
+        text-align: center;
+    }
+    .container2 img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}
+/*Testimoni*/
+.bg-testimoni {
+    text-align: center;
+    background: 17A2B8;
+}
+
+/*Text Hubungi Kami*/
+.bg-hubungi   {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*content hubungi kami*/
+.coloms-bg  {
+    background-color: wheat;
+    opacity: 0.9;
+    text-align: left;
+    padding-left: 100px;
+    margin-bottom: 0.1px;
+}
+
+
+.container3 ul li a {
+    opacity: 0.9;
+    text-decoration: none;
+    text-align: left;
+    margin-right: 100px;
+}
+
+.coloms-bg ul li {
+    list-style-type: none;
+    text-align: left;
+}
+
+/*form*/
+.container4 {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container4 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+/*FOOTER*/
+.footer {
+    text-align: center;
+    font-size: 12px;
+}
